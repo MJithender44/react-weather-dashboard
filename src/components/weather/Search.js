@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 import { ThemeContext } from "../../context/ThemeContext";
-import constants from "../../constants/constants";
 import { formatCoords } from "../../utils/FormatCoords";
 import WeatherContainer from "../../containers/weather/WeatherContainer";
 import LoaderComponent from "../loader/LoaderComponent";

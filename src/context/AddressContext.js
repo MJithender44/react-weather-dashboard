@@ -3,7 +3,6 @@ import { WeatherUnitContext } from "./WeatherUnitContext";
 import axios from "axios";
 import validName from "./../utils/ValidCityName";
 import fetchIPAddress from "../utils/FetchIpAddress";
-import constants from "../constants/constants";
 import isValid from "../utils/ValidityChecker";
 import { isNil } from "lodash-es";
 import { formatCoords } from "../utils/FormatCoords";

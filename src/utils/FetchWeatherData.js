@@ -2,7 +2,6 @@ import axios from 'axios'
 import axiosRetry from 'axios-retry'
 import FormatTime from './FormatTime'
 import isValid from './ValidityChecker'
-import constants from '../constants/constants'
 import WEATHER_DATA from '../constants/weatherData'
 
 // Exponential back-off retry delay between requests
